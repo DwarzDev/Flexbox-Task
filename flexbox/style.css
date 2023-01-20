@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: white;
+  /* border: 1px solid black; */
+}
+body {
+  background: linear-gradient(to bottom, rgb(20, 198, 198), rgb(0, 125, 58));
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: 0 3px 6px gray;
+}
+.right,
+.left {
+  margin: 0 10px;
+}
+
+.right a,
+.logo-img {
+  display: inline;
+  font-size: 1.1em;
+  margin: 0 6px;
+  color: rgb(6, 65, 88);
+  text-decoration: none;
+}
+.logo-img {
+  cursor: pointer;
+  width: 40px;
+}
+
+.search {
+  margin: 0 10px;
+  border-radius: 10px;
+  padding-left: 20px;
+  width: 240px;
+  border-style: none;
+  opacity: 0.66;
+}
+
+button {
+  padding: 11px 10px;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  cursor: pointer;
+  color: rgb(6, 65, 88);
+  border-style: double;
+  opacity: 0.66;
+  margin-right: 10px;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+}
+.left-contents {
+  width: 30%;
+}
+.main-contents {
+  width: 90%;
+}
+.right-contents {
+  width: 35%;
+}
+
+.main-contents .menu ul li {
+  display: inline;
+  margin: 0 10px;
+  padding: 10px;
+}
+.main-contents .menu ul li a {
+  text-decoration: none;
+}
+
+.card {
+  margin: 10px;
+  /* padding: 10px 20px; */
+  background-color: rgba(147, 169, 162, 0.3);
+  border: 1px solid rgb(201, 181, 181);
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgb(96, 167, 127);
+}
+
+.content-left-2 ul li {
+  /* padding: 15px 5px; */
+  margin: 25px 11px;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+}
+
+.content-left-2 ul {
+  width: 100px;
+  list-style: none;
+}
+
+.content-left-2 ul li a {
+  text-decoration: none;
+  margin-left: 2.0vw;
+  font-size: 0.8em;
+}
+
+.left {
+  display: flex;
+}
+.content-left-1{
+    padding: 20px;
+}
+.content-1,.content-2,.content-3 {
+    padding: 30px;
+    height: 200px;
+}
+
+section .hero-img img {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+}
+section .hero-img img {
+    background-size: cover;
+    background-position: center;
+}
+ .hero-img img:hover {
+  opacity: 0.3;
+ }
+section.img {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+section .profile-wrap, .wrap {
+    display: flex;
+}
+
+section .logo-user img{
+    width: 40px;
+    height: 40px;
+    margin: 13px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.user {
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 22px;
+  margin: 10px;
+}
+
+.content-btm {
+  display: flex;
+  align-items: center;
+}
+.wrap-content h4,.content-btm p {
+  margin: 10px;}
+
+  .second 
